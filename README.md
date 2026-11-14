@@ -55,7 +55,7 @@
 
 ## Features
 
-- **Auto-Detects Any SLT Package:** Dynamically detects whatever MySLT package your account is subscribed to (Fibre, ADSL, or 4G — Anytime, Time-based, or Unlimited) along with every active quota bucket and add-on.
+- **Auto-Detects Any SLT Package:** Dynamically detects whatever MySLT package your account is subscribed to along with every active quota bucket and add-on. *(Currently tested on **SLT Fibre** only — **ADSL** and **4G/LTE** testers welcome!)*
 - **Unified Data Usage Totals:** Combines usage across your main package, Bonus Data, Free Data (`Mid Night Thriller`, `12AM - 7AM`), Extra GB bundles, and VAS Data bundles into **Total Used**, **Remaining**, and **Total Limit** metrics (including `+ Unl.` when an unlimited bucket is active).
 - **Billing & Next Bill Countdown:** Shows your outstanding balance / credit, last bill amount, payment due date, last payment details, and a **Next Bill** countdown to the 1st of the next cycle (`YYYY/MM/01`).
 - **Popup & Full-Screen Dashboard:** View a compact summary from the browser toolbar popup or expand into a full-screen dashboard (`popup.html?fullscreen=1`) for a multi-column layout.
@@ -127,6 +127,20 @@
     ├── rules.json      # declarativeNetRequest header rules for omniscapp.slt.lk
     └── icons/          # Extension icons (16x16, 48x48, 128x128)
 ```
+
+---
+
+## Testing Status, Feedback & Bugs
+
+- **Tested On:** SLT Fibre *(only Fibre has been tested so far)*.
+- **ADSL / 4G Users:** If you try this extension on an **ADSL** or **4G** connection (whether it works or runs into issues), please send a quick message!
+- **Any Feedback or Bugs:** Reach out directly on WhatsApp or open an issue on GitHub:
+
+<p>
+  <a href="https://wa.me/94768902513">
+    <strong>Message on WhatsApp (+94 76 890 2513)</strong>
+  </a>
+</p>
 
 ---
 
