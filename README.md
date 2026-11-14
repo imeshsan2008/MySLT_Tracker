@@ -8,6 +8,13 @@
   <strong>Version V1.0.0</strong> • Open-source Chrome Manifest V3 extension to monitor your SLT broadband data usage, add-ons, and billing details directly in your browser — with <strong>zero data collection</strong> and <strong>no external servers</strong>.
 </p>
 
+> [!IMPORTANT]
+> **Notice & Feedback — Tested on SLT Fibre Only**
+>
+> This extension is currently tested on **SLT Fibre** connections only. If it works on **ADSL** or **4G**, or if you find any bugs or have feedback, please send a message!
+>
+> **[WhatsApp (+94 76 890 2513)](https://wa.me/94768902513)**
+
 ---
 
 ## Installation
@@ -21,19 +28,19 @@
 3. Enable **Developer mode** (top-right toggle).
 4. Click **Load unpacked** and select the extracted folder containing `manifest.json`.
 
-### Method 2: Install Using [`SLT_TrackerV1.0.0.crx`](SLT_TrackerV1.0.0.crx)
+### Method 2: Install Using [`SLT_Tracker_V1.0.0.crx`](SLT_Tracker_V1.0.0.crx)
 > **Important Note on Chrome Security:** Modern Chrome blocks installing `.crx` files downloaded outside the Chrome Web Store directly (`"CRX_REQUIRED_PROOF_MISSING"` or off-store restrictions). Use the extraction steps below if drag-and-drop is blocked.
 
 #### Option A — Universal Method (Works in Chrome, Brave & Edge)
-1. Download [`SLT_TrackerV1.0.0.crx`](SLT_TrackerV1.0.0.crx) (or [`SLT_Tracker.zip`](SLT_Tracker.zip)) from this repository.
-2. Rename the file extension from `.crx` to `.zip` (for example, `SLT_TrackerV1.0.0.crx` -> `SLT_Tracker.zip`) and extract it into a folder.
+1. Download [`SLT_Tracker_V1.0.0.crx`](SLT_Tracker_V1.0.0.crx) (or [`SLT_Tracker.zip`](SLT_Tracker.zip)) from this repository.
+2. Rename the file extension from `.crx` to `.zip` (for example, `SLT_Tracker_V1.0.0.crx` -> `SLT_Tracker.zip`) and extract it into a folder.
 3. If the extracted folder contains a `_metadata` folder, delete `_metadata`.
 4. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the extracted folder.
 
 #### Option B — Direct Drag-and-Drop (Works on browsers/builds that allow developer `.crx` install)
-1. Download [`SLT_TrackerV1.0.0.crx`](SLT_TrackerV1.0.0.crx) to your computer first (do not click it directly inside the GitHub page).
+1. Download [`SLT_Tracker_V1.0.0.crx`](SLT_Tracker_V1.0.0.crx) to your computer first (do not click it directly inside the GitHub page).
 2. Open `chrome://extensions` and turn on **Developer mode**.
-3. Drag and drop `SLT_TrackerV1.0.0.crx` from File Explorer onto the `chrome://extensions` page and click **Add extension** if prompted. (If blocked by Chrome, follow **Option A** above.)
+3. Drag and drop `SLT_Tracker_V1.0.0.crx` from File Explorer onto the `chrome://extensions` page and click **Add extension** if prompted. (If blocked by Chrome, follow **Option A** above.)
 
 ### How to Pack / Convert This Extension to `.crx`
 1. Open `chrome://extensions` and enable **Developer mode**.
@@ -114,7 +121,7 @@
 ├── README.md           # Documentation & installation guide
 ├── icons/
 │   └── icon128.png     # Extension icon
-├── SLT_TrackerV1.0.0.crx # Packed Chrome extension (.crx)
+├── SLT_Tracker_V1.0.0.crx # Packed Chrome extension (.crx)
 └── SLT_Tracker.zip       # Source archive containing:
     ├── manifest.json   # Chrome Extension Manifest V3 configuration
     ├── background.js   # Service worker for tab script injection and background fetches
@@ -130,17 +137,14 @@
 
 ---
 
-## Testing Status, Feedback & Bugs
+## Notice & Feedback
 
-- **Tested On:** SLT Fibre *(only Fibre has been tested so far)*.
-- **ADSL / 4G Users:** If you try this extension on an **ADSL** or **4G** connection (whether it works or runs into issues), please send a quick message!
-- **Any Feedback or Bugs:** Reach out directly on WhatsApp or open an issue on GitHub:
+> **Tested on SLT Fibre Only**
 
-<p>
-  <a href="https://wa.me/94768902513">
-    <strong>Message on WhatsApp (+94 76 890 2513)</strong>
-  </a>
-</p>
+This extension is currently tested on **SLT Fibre** connections only. If it works on **ADSL** or **4G**, or if you find any bugs or have feedback, please send a message!
+
+- **WhatsApp:** **[WhatsApp (+94 76 890 2513)](https://wa.me/94768902513)**
+- **GitHub:** Open an issue or pull request in this repository.
 
 ---
 
