@@ -12,11 +12,8 @@
 
 ## Installation
 
-### Method 1: Install from ZIP / Source (Recommended for Chrome)
-1. Download [`SLT_Tracker.zip`](SLT_Tracker.zip) and extract it (or clone this repository):
-   ```bash
-   git clone https://github.com/imeshsan2008/MySLT_Tracker.git
-   ```
+### Method 1: Install from ZIP (Recommended for Chrome)
+1. Download [`SLT_Tracker.zip`](SLT_Tracker.zip) from this repository and extract it to a permanent folder on your computer.
 2. Open Chrome (or Brave / Edge) and go to:
    ```text
    chrome://extensions
@@ -113,16 +110,21 @@
 
 ```text
 .
-├── manifest.json   # Chrome Extension Manifest V3 configuration
-├── background.js   # Service worker for tab script injection and background fetches
-├── slt_utils.js    # Shared API client, phone normalization, bill parsing, and GB totals
-├── popup.html      # Extension popup and full-screen dashboard markup
-├── popup.js        # Popup & dashboard rendering, setup/reset form, and refresh logic
-├── popup.css       # Popup and responsive full-screen styles
-├── page_hook.js    # MAIN-world fetch/XHR/storage hook for auto-capturing MySLT session info
-├── content.js      # Content script that renders the fixed Shadow DOM top bar on myslt.slt.lk
-├── rules.json      # declarativeNetRequest header rules for omniscapp.slt.lk
-└── icons/          # Extension icons (16x16, 48x48, 128x128)
+├── README.md           # Documentation & installation guide
+├── icons/
+│   └── icon128.png     # Extension icon
+├── SLT EX.crx          # Packed Chrome extension (.crx)
+└── SLT_Tracker.zip     # Source archive containing:
+    ├── manifest.json   # Chrome Extension Manifest V3 configuration
+    ├── background.js   # Service worker for tab script injection and background fetches
+    ├── slt_utils.js    # Shared API client, phone normalization, bill parsing, and GB totals
+    ├── popup.html      # Extension popup and full-screen dashboard markup
+    ├── popup.js        # Popup & dashboard rendering, setup/reset form, and refresh logic
+    ├── popup.css       # Popup and responsive full-screen styles
+    ├── page_hook.js    # MAIN-world fetch/XHR/storage hook for auto-capturing MySLT session info
+    ├── content.js      # Content script that renders the fixed Shadow DOM top bar on myslt.slt.lk
+    ├── rules.json      # declarativeNetRequest header rules for omniscapp.slt.lk
+    └── icons/          # Extension icons (16x16, 48x48, 128x128)
 ```
 
 ---
