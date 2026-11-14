@@ -21,19 +21,19 @@
 3. Enable **Developer mode** (top-right toggle).
 4. Click **Load unpacked** and select the extracted folder containing `manifest.json`.
 
-### Method 2: Install Using [`SLT EX.crx`](SLT%20EX.crx)
+### Method 2: Install Using [`SLT_Tracker.crx`](SLT_Tracker.crx)
 > **Important Note on Chrome Security:** Modern Chrome blocks installing `.crx` files downloaded outside the Chrome Web Store directly (`"CRX_REQUIRED_PROOF_MISSING"` or off-store restrictions). Use the extraction steps below if drag-and-drop is blocked.
 
 #### Option A — Universal Method (Works in Chrome, Brave & Edge)
-1. Download [`SLT EX.crx`](SLT%20EX.crx) (or [`SLT_Tracker.zip`](SLT_Tracker.zip)) from this repository.
-2. Rename the file extension from `.crx` to `.zip` (for example, `SLT EX.crx` -> `SLT_Tracker.zip`) and extract it into a folder.
+1. Download [`SLT_Tracker.crx`](SLT_Tracker.crx) (or [`SLT_Tracker.zip`](SLT_Tracker.zip)) from this repository.
+2. Rename the file extension from `.crx` to `.zip` (for example, `SLT_Tracker.crx` -> `SLT_Tracker.zip`) and extract it into a folder.
 3. If the extracted folder contains a `_metadata` folder, delete `_metadata`.
 4. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the extracted folder.
 
 #### Option B — Direct Drag-and-Drop (Works on browsers/builds that allow developer `.crx` install)
-1. Download [`SLT EX.crx`](SLT%20EX.crx) to your computer first (do not click it directly inside the GitHub page).
+1. Download [`SLT_Tracker.crx`](SLT_Tracker.crx) to your computer first (do not click it directly inside the GitHub page).
 2. Open `chrome://extensions` and turn on **Developer mode**.
-3. Drag and drop `SLT EX.crx` from File Explorer onto the `chrome://extensions` page and click **Add extension** if prompted. (If blocked by Chrome, follow **Option A** above.)
+3. Drag and drop `SLT_Tracker.crx` from File Explorer onto the `chrome://extensions` page and click **Add extension** if prompted. (If blocked by Chrome, follow **Option A** above.)
 
 ### How to Pack / Convert This Extension to `.crx`
 1. Open `chrome://extensions` and enable **Developer mode**.
@@ -113,7 +113,7 @@
 ├── README.md           # Documentation & installation guide
 ├── icons/
 │   └── icon128.png     # Extension icon
-├── SLT EX.crx          # Packed Chrome extension (.crx)
+├── SLT_Tracker.crx     # Packed Chrome extension (.crx)
 └── SLT_Tracker.zip     # Source archive containing:
     ├── manifest.json   # Chrome Extension Manifest V3 configuration
     ├── background.js   # Service worker for tab script injection and background fetches
