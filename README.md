@@ -55,6 +55,7 @@
 
 ## Features
 
+- **Auto-Detects Any SLT Package:** Dynamically detects whatever MySLT package your account is subscribed to (Fibre, ADSL, or 4G — Anytime, Time-based, or Unlimited) along with every active quota bucket and add-on.
 - **Unified Data Usage Totals:** Combines usage across your main package, Bonus Data, Free Data (`Mid Night Thriller`, `12AM - 7AM`), Extra GB bundles, and VAS Data bundles into **Total Used**, **Remaining**, and **Total Limit** metrics (including `+ Unl.` when an unlimited bucket is active).
 - **Billing & Next Bill Countdown:** Shows your outstanding balance / credit, last bill amount, payment due date, last payment details, and a **Next Bill** countdown to the 1st of the next cycle (`YYYY/MM/01`).
 - **Popup & Full-Screen Dashboard:** View a compact summary from the browser toolbar popup or expand into a full-screen dashboard (`popup.html?fullscreen=1`) for a multi-column layout.
