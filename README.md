@@ -20,7 +20,7 @@
 ## Installation
 
 ### Method 1: Install from ZIP (Recommended for Chrome)
-1. Download [`SLT_Tracker.zip`](SLT_Tracker.zip) from this repository and extract it to a permanent folder on your computer.
+1. Download [`SLT_Tracker_V1.0.0.zip`](SLT_Tracker_V1.0.0.zip) from this repository and extract it to a permanent folder on your computer.
 2. Open Chrome (or Brave / Edge) and go to:
    ```text
    chrome://extensions
@@ -32,8 +32,8 @@
 > **Important Note on Chrome Security:** Modern Chrome blocks installing `.crx` files downloaded outside the Chrome Web Store directly (`"CRX_REQUIRED_PROOF_MISSING"` or off-store restrictions). Use the extraction steps below if drag-and-drop is blocked.
 
 #### Option A — Universal Method (Works in Chrome, Brave & Edge)
-1. Download [`SLT_Tracker_V1.0.0.crx`](SLT_Tracker_V1.0.0.crx) (or [`SLT_Tracker.zip`](SLT_Tracker.zip)) from this repository.
-2. Rename the file extension from `.crx` to `.zip` (for example, `SLT_Tracker_V1.0.0.crx` -> `SLT_Tracker.zip`) and extract it into a folder.
+1. Download [`SLT_Tracker_V1.0.0.crx`](SLT_Tracker_V1.0.0.crx) (or [`SLT_Tracker_V1.0.0.zip`](SLT_Tracker_V1.0.0.zip)) from this repository.
+2. Rename the file extension from `.crx` to `.zip` (for example, `SLT_Tracker_V1.0.0.crx` -> `SLT_Tracker_V1.0.0.zip`) and extract it into a folder.
 3. If the extracted folder contains a `_metadata` folder, delete `_metadata`.
 4. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the extracted folder.
 
@@ -137,7 +137,7 @@ Enable **Settings -> Pages -> Branch: `main` -> Folder: `/docs`** in your GitHub
 ├── icons/
 │   └── icon128.png          # Extension icon
 ├── SLT_Tracker_V1.0.0.crx   # Packed Chrome extension (.crx)
-└── SLT_Tracker.zip          # Source archive containing:
+└── SLT_Tracker_V1.0.0.zip          # Source archive containing:
     ├── manifest.json   # Chrome Extension Manifest V3 configuration
     ├── background.js   # Service worker for tab script injection and background fetches
     ├── slt_utils.js    # Shared API client, phone normalization, bill parsing, and GB totals
