@@ -12,8 +12,8 @@
 
 ## Installation
 
-### Method 1: Install from Source / ZIP (Recommended for Chrome)
-1. Clone or download this repository as a ZIP and extract it:
+### Method 1: Install from ZIP / Source (Recommended for Chrome)
+1. Download [`SLT_Tracker.zip`](SLT_Tracker.zip) and extract it (or clone this repository):
    ```bash
    git clone https://github.com/imeshsan2008/MySLT_Tracker.git
    ```
@@ -24,19 +24,19 @@
 3. Enable **Developer mode** (top-right toggle).
 4. Click **Load unpacked** and select the extracted folder containing `manifest.json`.
 
-### Method 2: Install Using a `.crx` File from GitHub
+### Method 2: Install Using [`SLT EX.crx`](SLT%20EX.crx)
 > **Important Note on Chrome Security:** Modern Chrome blocks installing `.crx` files downloaded outside the Chrome Web Store directly (`"CRX_REQUIRED_PROOF_MISSING"` or off-store restrictions). Use the extraction steps below if drag-and-drop is blocked.
 
 #### Option A — Universal Method (Works in Chrome, Brave & Edge)
-1. Download the `.crx` file from the repository / **Releases** page.
-2. Rename the file extension from `.crx` to `.zip` (for example, `MySLT_Tracker.crx` -> `MySLT_Tracker.zip`) and extract it into a folder.
+1. Download [`SLT EX.crx`](SLT%20EX.crx) (or [`SLT_Tracker.zip`](SLT_Tracker.zip)) from this repository.
+2. Rename the file extension from `.crx` to `.zip` (for example, `SLT EX.crx` -> `SLT_Tracker.zip`) and extract it into a folder.
 3. If the extracted folder contains a `_metadata` folder, delete `_metadata`.
 4. Open `chrome://extensions`, turn on **Developer mode**, click **Load unpacked**, and select the extracted folder.
 
 #### Option B — Direct Drag-and-Drop (Works on browsers/builds that allow developer `.crx` install)
-1. Download the `.crx` file to your computer first (do not click it directly inside the GitHub page).
+1. Download [`SLT EX.crx`](SLT%20EX.crx) to your computer first (do not click it directly inside the GitHub page).
 2. Open `chrome://extensions` and turn on **Developer mode**.
-3. Drag and drop the `.crx` file from File Explorer onto the `chrome://extensions` page and click **Add extension** if prompted. (If blocked by Chrome, follow **Option A** above.)
+3. Drag and drop `SLT EX.crx` from File Explorer onto the `chrome://extensions` page and click **Add extension** if prompted. (If blocked by Chrome, follow **Option A** above.)
 
 ### How to Pack / Convert This Extension to `.crx`
 1. Open `chrome://extensions` and enable **Developer mode**.
