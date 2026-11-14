@@ -51,12 +51,21 @@
 
 ---
 
-## Privacy & Open Source
+## Privacy & Chrome Web Store Pages
 
 - **Zero Data Collection:** This extension never collects, logs, sells, or shares your personal information, tokens, or usage statistics.
 - **100% Local Execution:** Your Bearer token, telephone number, and account number are stored strictly on your device using `chrome.storage.local`.
 - **Direct API Requests Only:** Every network request goes directly from your browser to official SLT endpoints (`https://omniscapp.slt.lk/slt/ext/api/*`). There is no backend, proxy, analytics, or third-party tracking.
 - **Fully Auditable:** Inspect every line of code in this repository before installing.
+
+### Web Store Listing URLs (GitHub Pages `/docs`)
+Enable **Settings -> Pages -> Branch: `main` -> Folder: `/docs`** in your GitHub repository to serve these static HTML pages live for the Chrome Web Store Developer Dashboard:
+
+| Page | Source File | Live GitHub Pages URL |
+| --- | --- | --- |
+| **Extension Overview / Homepage** | [`docs/index.html`](docs/index.html) | `https://imeshsan2008.github.io/MySLT_Tracker/` |
+| **Privacy Policy (Required for Web Store)** | [`docs/privacy.html`](docs/privacy.html) | `https://imeshsan2008.github.io/MySLT_Tracker/privacy.html` |
+| **Support & FAQ** | [`docs/support.html`](docs/support.html) | `https://imeshsan2008.github.io/MySLT_Tracker/support.html` |
 
 ---
 
@@ -118,11 +127,17 @@
 
 ```text
 .
-├── README.md           # Documentation & installation guide
+├── README.md                # Documentation & installation guide
+├── docs/                    # GitHub Pages site for Chrome Web Store URLs
+│   ├── index.html           # Extension homepage / Web Store overview
+│   ├── privacy.html         # Chrome Web Store Privacy Policy
+│   ├── support.html         # Support, testing status & FAQ
+│   ├── style.css            # Shared page stylesheet
+│   └── assets/icon128.png   # Site icon asset
 ├── icons/
-│   └── icon128.png     # Extension icon
-├── SLT_Tracker_V1.0.0.crx # Packed Chrome extension (.crx)
-└── SLT_Tracker.zip       # Source archive containing:
+│   └── icon128.png          # Extension icon
+├── SLT_Tracker_V1.0.0.crx   # Packed Chrome extension (.crx)
+└── SLT_Tracker.zip          # Source archive containing:
     ├── manifest.json   # Chrome Extension Manifest V3 configuration
     ├── background.js   # Service worker for tab script injection and background fetches
     ├── slt_utils.js    # Shared API client, phone normalization, bill parsing, and GB totals
