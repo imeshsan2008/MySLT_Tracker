@@ -2,10 +2,10 @@
   <img src="icons/icon128.png" alt="MySLT Tracker Icon" width="96" height="96">
 </p>
 
-<h1 align="center">MySLT Tracker (MySLT Direct Background Tracker)</h1>
+<h1 align="center">MySLT Tracker — V1.0.0</h1>
 
 <p align="center">
-  An open-source Chrome Manifest V3 extension to monitor your SLT broadband data usage, add-ons, and billing details directly in your browser — with <strong>zero data collection</strong> and <strong>no external servers</strong>.
+  <strong>Version V1.0.0</strong> • Open-source Chrome Manifest V3 extension to monitor your SLT broadband data usage, add-ons, and billing details directly in your browser — with <strong>zero data collection</strong> and <strong>no external servers</strong>.
 </p>
 
 ---
@@ -56,7 +56,7 @@
 ## Features
 
 - **Auto-Detects Any SLT Package:** Dynamically detects whatever MySLT package your account is subscribed to along with every active quota bucket and add-on. *(Currently tested on **SLT Fibre** only — **ADSL** and **4G/LTE** testers welcome!)*
-- **Unified Data Usage Totals:** Combines usage across your main package, Bonus Data, Free Data (`Mid Night Thriller`, `12AM - 7AM`), Extra GB bundles, and VAS Data bundles into **Total Used**, **Remaining**, and **Total Limit** metrics (including `+ Unl.` when an unlimited bucket is active).
+- **Unified Data Usage Totals:** Combines usage across your main package, Bonus Data, Free Data (`Mid Night Thriller`, `12AM - 7AM`), Extra GB bundles, and VAS Data bundles into **Total Used**, **Remaining** (labeled with which package holds the remaining GB), and **Total Limit** metrics (including `+ Unl.` when an unlimited bucket is active).
 - **Billing & Next Bill Countdown:** Shows your outstanding balance / credit, last bill amount, payment due date, last payment details, and a **Next Bill** countdown to the 1st of the next cycle (`YYYY/MM/01`).
 - **Popup & Full-Screen Dashboard:** View a compact summary from the browser toolbar popup or expand into a full-screen dashboard (`popup.html?fullscreen=1`) for a multi-column layout.
 - **MySLT Portal Top Banner:** When browsing `https://myslt.slt.lk/`, displays a dismissible top summary bar with account info, total GB usage, per-package chips, bill summary, and quick **Copy Token**, refresh, and full-screen actions.
