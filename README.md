@@ -49,6 +49,24 @@
 4. Click **Pack extension** — Chrome generates both a `.crx` package and a `.pem` private key file.
 5. **Never upload or commit the `.pem` key file to GitHub** (keep it private on your computer for future updates). Only share or attach the `.crx` file (for example, in **GitHub Releases**).
 
+### Method 3: Windows Desktop Widget ([`MySLTWidget.exe`](MySLTWidget.exe) — Rainmeter-Style Desktop App)
+Run a lightweight standalone `.NET 8 WPF` desktop widget directly on your Windows desktop with **Dark & Light themes**, **Full-Screen multi-column dashboard**, **Pay Now (`billpay.slt.lk`)**, **Monthly Usage History (`CSV` / `JSON` export + 12-month reminder)**, and **Rainmeter-style desktop pinning**:
+
+1. Download [`MySLTWidget.exe`](MySLTWidget.exe) from this repository and run it.
+2. **Copy your 3 credentials from the Chrome Extension:**
+   - Sign in at [https://myslt.slt.lk/](https://myslt.slt.lk/) once so the Chrome extension auto-detects your account.
+   - Open the **MySLT Tracker** browser extension popup and click **⚙ Settings**.
+   - Copy the **Bearer Token**, **Telephone No**, and **Account No** displayed in the 3 input boxes.
+3. In `MySLTWidget.exe`, click **⚙ Settings**, paste the **Bearer Token**, **Telephone No**, and **Account No**, and click **Save & Connect**.
+4. Use the top-right widget buttons anytime:
+   - `📊` **Monthly Usage History** (yearly filter, CSV/JSON export, clear, 12-month backup reminder)
+   - `☀ / 🌙` **Light / Dark Mode** toggle
+   - `⛶ / ❐` **Full Screen** multi-column dashboard toggle (`Esc` exits full screen)
+   - `🖼 / 📌 / 🗔` **Desktop (Rainmeter mode)** / **Always on Top** / **Normal Window** layer toggle
+   - `⚙` **Settings** (opacity slider, auto-refresh interval, Start with Windows, lock position)
+   - `↻` **Refresh Now**
+
+
 ---
 
 ## Privacy & Chrome Web Store Pages
